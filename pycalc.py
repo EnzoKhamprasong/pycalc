@@ -21,8 +21,6 @@ elif operateur == "*":
         print(resultat)
     else:
         print(nb1*nb2)
-    
-    print(nb1*nb2)
 elif operateur == "/":
     print(nb1/nb2)
 else:
