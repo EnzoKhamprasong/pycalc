@@ -8,3 +8,5 @@ if operateur == "+":
     print(nb1+nb2)
 elif operateur == "-":
     print(nb1-nb2)
+elif operateur == "*":
+    print(nb1*nb2)
