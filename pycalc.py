@@ -9,4 +9,16 @@ if operateur == "+":
 elif operateur == "-":
     print(nb1-nb2)
 elif operateur == "*":
-    print(nb1*nb2)
+    if nb1 == int(nb1):
+        resultat = 0
+        for i in range (int(nb1)):
+            resultat += nb2
+        print(resultat)
+    elif nb2 == int(nb2):
+        resultat = 0
+        for i in range (int(nb2)):
+            resultat += nb1
+        print(resultat)
+    else:
+        print(nb1*nb2)
+    
